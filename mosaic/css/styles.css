@@ -1,0 +1,471 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main-container{
+ max-width: auto;  
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: 550;
+    font-size: small;
+    margin: 15px;
+    margin-bottom: 0%;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+.hirenow{
+    padding: 10px;
+    border-radius: 5px;
+}
+.hirenow:hover{
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+    cursor: pointer;
+}
+.navleftitems{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navrightitems{
+    display: flex;
+ align-items: center;
+}
+.navrightitems ul li{
+    display: inline;
+    text-decoration: none;
+    margin: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+.navrightitems ul li:hover{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+}
+.sub-container{
+    display: flex;
+}
+.leftsub-container{
+    width: auto;
+    padding: 40px;
+    margin-bottom: 1px solid lightgray;
+
+}
+.leftsub-container img{
+    border-radius: 20px;
+    
+}
+.rightsub-container{
+    max-width: auto;
+    margin-bottom: 1px solid lightgray;
+}
+.textleftsub1{
+    margin: 10px;
+    font-weight: bold;
+    font-size: small;
+}
+.textleftsub2{
+    margin-top: 30px;
+    margin-bottom: 10px ;
+    font-weight: bold;
+}
+.heritageheights{
+    margin: 1px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+.heritageheights img{
+    border: none;
+}
+.heritageheights:hover{
+    padding: 10px;
+    width: 300px;
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;    
+}
+.rightsub-container{
+    text-align: center;
+    font-size: 25px;
+    padding:50px;
+    border-left: 1px solid lightgray;
+
+}
+.rightsub-container button{
+    padding: 15px;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+    cursor: pointer;
+    margin: 20px;
+}
+.rightsub-container button:hover{
+    background-color: rgb(110, 109, 109) ;
+opacity: 0.8; 
+}
+.sub-container2{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid lightgray;
+}
+.leftsub-container1{
+    max-width: 380px;
+    padding: 40px;
+}
+.leftsub-container1 h1{
+    font-size: 50px;
+}
+.leftsub-container1 p{
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: small;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.rightsub-container2{
+    max-width: 400px;
+    padding: 40px;
+}
+.centersub-container2{
+    margin: 10px;
+    padding: 60px;
+    padding-top: 200px;
+}
+.centersub-container2 img{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+.rightsub-container2 select{
+    padding: 25px;
+    width: 250px;
+    margin: 25px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #f5f4ef;
+    border-radius: 10px;
+
+}
+.rightsub-containertext p{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    font-size: small;
+    font-weight: bold;
+}
+.rightsub2items{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background-color: #f5f4ef;
+}
+.selectitems{
+    margin: 25px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+.selectitems select{
+   padding: 10px;
+   margin: 10px;
+}
+.selectitems select:hover{
+    padding: 10px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+    cursor: pointer;
+    margin: 10px;
+    max-width: 250px;
+}
+.projectsection{
+    display: flex;
+    gap:50px;
+    margin-top: 50px;
+    margin: 20px;
+}
+.leftprojectsection{
+    max-width: 280px;
+    padding: 10px;  
+    border-radius: 10px;
+    background-color: #f5f4ef;
+}
+.leftprojectsection h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.leftprojectsection img{
+    margin: 10px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+.leftprojectsectionsub {
+border: 1px  solid lightgray;
+margin-top: 20px;
+text-align: start;
+padding: 30px;
+margin: 10px;
+font-weight: bold;
+font-size: small;
+border: 1px solid lightgray;
+border-radius: 20px;
+
+}
+.leftprojectsectionsub a{
+    border: 1px solid lightgray;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.leftprojectsectionsub a:hover{
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+    cursor: pointer;
+}
+.leftprojectsectionsub p{
+    margin-bottom: 20px;
+}
+.rightprojectsection{
+    max-width: 1000px;
+}
+.rightprojectsection h1{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 10px;
+}
+.rightprojectsection ul {
+    text-align: center;
+}
+.rightprojectsection ul li{
+    display: inline;
+    margin: 40px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+}
+.rightprojectsection ul li:hover{
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+    cursor: pointer;
+}
+.flexitem{
+    margin: 20px;
+    padding: 10px;
+}
+.fleximg{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+.flexcaption{
+    display: flex;
+    gap:50px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.flexcaption p{
+    font-size: small;
+    font-weight: bold;
+    margin: 5px;
+}
+.flexcaption:hover{
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+    cursor: pointer;  
+}
+.imgflex{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.seemore{
+    text-align: center;
+    text-decoration: none;
+}
+.seemore button{
+    padding: 10px;
+    margin: 10px;
+    max-width: 150px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+    cursor: pointer;
+}
+.seemore button:hover{
+    color: aliceblue;
+    background-color: rgb(110, 109, 109) ;
+    cursor: pointer; 
+    opacity: 0.8;
+}
+.centeraboutitems{
+    display: flex;
+    justify-content: space-evenly;
+    gap:10px;
+}
+.centeraboutitems p{
+    font-size: small;
+    font-weight: bold;
+}
+.years{
+    display: flex;
+    align-items: center;
+    gap:10px;
+
+}
+.years span{
+    font-size: 20px;
+    float:right;
+    clear: right;
+}
+.aboutpageflex{
+    display: flex;
+    gap:30px;
+}
+.aboutpage{
+    margin: 20px;
+}
+.leftaboutitems{
+    margin: 10px;
+    padding: 10px;
+}
+.leftaboutitems h1{
+    padding: 20px;
+    padding-left: 0;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.leftaboutitems a{
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 10px;    
+    font-size: small;
+    font-weight: bold;
+}
+.leftaboutitems a:hover{
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+    cursor: pointer; 
+}
+.leftaboutitems img{
+    margin-top: 40px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+.years h2{
+    font-size: 50px;
+}
+.centeraboutitems{
+    margin: 30px;
+}
+.centeritems{
+    margin-top: 180px;
+}
+.centerparagraph{
+    margin: 10px;
+    padding: 40px;
+    font-size: small;
+    font-weight: bold;
+    background-color: #f5f4ef;
+    border-radius: 20px;
+}
+.rightaboutitems img{
+ margin: 40px;
+ border: 1px solid lightgray;
+ border-radius: 20px;
+}
+.aboutpage{
+    border-bottom: 1px solid lightgray;
+}
+.footer{
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid lightgray;
+}
+.footeritems{
+    display: flex;
+    justify-content: space-around;
+}
+.footer h1{
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+.emailitems{
+    margin: 30px;
+    padding: 20px;
+    font-weight: bold;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.emailitems:hover{
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+    cursor: pointer; 
+}
+.contactitems:hover{
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+    cursor: pointer; 
+}
+.contactitems{
+ margin: 30px;
+ padding: 20px;
+ font-weight: bold;
+ border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.emailitems p{
+    font-size: 30px;
+    padding-top: 5px;
+
+}
+.contactitems p{
+    font-size: 30px;
+    padding-top: 5px;
+}
+.footerright img{
+    margin: 20px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+#nav-container{
+position: fixed;
+left: 0%;
+right: 0%;
+margin-top: 20px;
+background-color: white;
+transition: top 0.3s;
+}
+
+.sub-container{
+    padding-top: 90px;
+}
+
+
+
